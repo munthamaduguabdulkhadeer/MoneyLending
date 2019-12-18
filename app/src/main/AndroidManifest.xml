@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.instantloan">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pay"></activity>
+        <activity android:name=".Order" />
+        <activity android:name=".Flipkart" />
+        <activity android:name=".Amazon" />
+        <activity android:name=".Watches" />
+        <activity android:name=".Expense" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Share" />
+        <activity android:name=".EmiCalculator" />
+        <activity android:name=".BankAccount" />
+        <activity android:name=".AddAddress" />
+        <activity android:name=".SmartCard" />
+        <activity android:name=".loan" />
+        <activity android:name=".mobiles" />
+        <activity android:name=".dontpay" />
+        <activity android:name=".dorepay" />
+        <activity android:name=".use" />
+        <activity android:name=".request" />
+        <activity android:name=".modes" />
+        <activity android:name=".pin" />
+        <activity android:name=".latefee" />
+        <activity android:name=".reloadfee" />
+        <activity android:name=".lostcharge" />
+        <activity android:name=".onefees" />
+        <activity android:name=".process" />
+        <activity android:name=".rate" />
+        <activity android:name=".ref" />
+        <activity android:name=".dms" />
+        <activity android:name=".crd" />
+        <activity android:name=".app" />
+        <activity android:name=".Payments" />
+        <activity android:name=".Documents" />
+        <activity android:name=".CreditCard" />
+        <activity android:name=".Charges" />
+        <activity android:name=".Timings" />
+        <activity android:name=".Apply" />
+        <activity android:name=".faq" />
+        <activity android:name=".homepage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

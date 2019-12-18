@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".process">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is there a loan processing fee?"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loan processing fee could be upto 2% per month on disbursement amount,subject to a minimum of Rs100 +GST as applicable for Card Rs750 + GST as applicable"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gray"
+            android:layout_marginTop="200dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Was this FAQ helpful?"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"/>
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/black"
+                android:text="NO"
+                android:onClick="NO"
+                android:textSize="15dp"
+                android:layout_marginTop="35dp"
+                tools:ignore="OnClick" />
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:textColor="@color/black"
+                android:text="YES"
+                android:onClick="YES"
+                android:textSize="15dp"
+                android:layout_marginTop="35dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

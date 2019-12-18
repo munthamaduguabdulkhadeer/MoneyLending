@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Charges">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:text="What will be my Interest Rate?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="rate"
+            android:layout_marginLeft="5dp">
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            android:layout_marginLeft="5dp"
+            android:text="Is there a loan processing fee?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="process"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3"
+            android:layout_marginLeft="5dp"
+            android:text="What is the one time application fee for MoneyLending credit card?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="fee"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t4"
+            android:layout_marginLeft="5dp"
+            android:text="What will be the fee charged for a lost card?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="lost"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t5"
+            android:layout_marginLeft="5dp"
+            android:text="How much is the reload fee?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="load"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t6"
+            android:layout_marginLeft="5dp"
+            android:text="How much is the late fee charged?"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:onClick="late"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
